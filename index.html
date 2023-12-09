@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Existen 3 formas de agregar esstilo al html; pero 1 es la mejor práctica. 
+    
+        1. En línea. Da mayor jerarquía. 
+        2. Con etiqueta.
+        3. Con referencia a un doc externo
+    -->
+
+    <h1>Inline</h1>
+        <p style="background-color:azure; color: blueviolet; font-size: xx-large;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vel voluptas laborum temporibus veritatis doloremque molestiae animi consequuntur explicabo, tempore repellat vitae eaque suscipit quaerat, quisquam nihil, neque velit praesentium.
+        </p>
+
+    
+    <h1>Con etiqueta</h1>
+    <style>
+        body{background-color:brown;} 
+        p{background-color: darkslateblue;}
+        .loremPrueba1{background-color: crimson;}
+    </style>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, quo esse! Vel, deserunt. Adipisci odio, officiis inventore pariatur voluptate consequuntur autem et quas laboriosam cum distinctio quidem dolore perferendis assumenda!
+    </p>
+
+
+    <h1>Con referencia a un documento externo</h1>
+    <!-- Referenciar documento externo (buena práctica)
+    Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html 'index.html', con la estructura; y, por otro lado, tenemos el documento 'style.css', para dar estilo -->
+    <p class="loremPruebaID">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis eum molestias magni qui recusandae officia hic quidem voluptas velit. Fugit corrupti ut dolores porro sint libero nulla accusantium quos dolore?
+    </p>
+    <h2>Clases y ID</h2>
+        <p class="loremPrueba1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque saepe doloribus alias veritatis voluptates ipsa ex. Eos amet earum quas eius corporis quaerat deleniti quidem, ex mollitia atque vel.
+        </p>
+        <p class="loremPrueba1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque saepe doloribus alias veritatis voluptates ipsa ex. Eos amet earum quas eius corporis quaerat deleniti quidem, ex mollitia atque vel.
+        </p>
+        <p class="loremPrueba2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil neque saepe doloribus alias veritatis voluptates ipsa ex. Eos amet earum quas eius corporis quaerat deleniti quidem, ex mollitia atque vel.
+        </p>
+
+<br>
+<hr>
+<br>
+
+<!-- Práctica -->
+<h1>Lista de super</h1>
+    <br>
+    <div class="frutas">
+        <h2>Fruta</h2>
+    </div>
+    <div class="frutas-objetos">
+        <ol>
+            <li>Manzana</li>
+            <li>Fresa</li>
+            <li class="tachado">Aguacate</li>
+        </ol>
+    </div>
+
+    <div class="carnes">
+        <h2>Carnes</h2>
+    </div>
+    <div class="carnes-objetos">
+        <ol>
+            <li class="tachado">Bisteck</li>
+            <li>Pollo</li>
+            <li>Arrachera</li>
+        </ol>
+    </div>
+
+    <div class="lacteos">
+        <h2>Lacteos</h2>
+    </div>
+    <div class="lacteos-objetos">
+        <ol>
+            <li class="tachado">Leche</li>
+            <li>Yogurth</li>
+            <li>Queso</li>
+        </ol>
+    </div>
+
+    <div class="limpieza">
+        <h2>Limpieza</h2>
+    </div>
+    <div class="limpieza-objetos">
+        <ol>
+            <li>Cloro</li>
+            <li class="tachado">Lavatrastes</li>
+            <li>Servitoallas</li>
+        </ol>
+    </div>
+
+<!-- Modelo de caja
+    Agrupa por bloques la información de sitio web, lo que facilita el diseño
+-->
+
+
+</body>
+</html>

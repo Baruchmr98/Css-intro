@@ -1,0 +1,59 @@
+p{background-color: darkcyan;}
+
+.loremPrueba2{background-color: darkgreen;}
+.frutas{
+    background-color: darkgoldenrod;
+    text-align: center;
+    width: 200;
+    height: 200;
+    margin: 0px 65px;
+    padding: 0px; 
+    border: solid seashell;
+}
+.frutas-objetos{
+    background-color: darkgoldenrod;
+    padding: 15px 30px;
+    margin: 7px 20px 0px 20px;
+}
+.carnes{
+    background-color: chartreuse;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 65px 0px 65px;
+}
+.carnes-objetos{
+    background-color: chartreuse;
+    padding: 15px 30px;
+    margin: 7px 20px 0px 20px;
+}
+.lacteos{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 65px 0px 65px;
+}
+.lacteos-objetos{
+    background-color: cornflowerblue;
+    padding: 15px 30px;
+    margin: 7px 20px 0px 20px;
+}
+.limpieza{
+    background-color: green;
+    text-align: center;
+    padding: 0px;
+    margin: 20px 65px 0px 65px;
+}
+.limpieza-objetos{
+    background-color: green;
+    padding: 15px 30px;
+    margin: 7px 20px 0px 20px;
+}
+.tachado{background-color: crimson;}
+
+div{
+    width: 200;
+    height: 200;
+    margin: 20px;
+    padding: 30px;
+    border: solid seashell;
+}
